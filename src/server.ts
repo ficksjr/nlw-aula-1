@@ -2,4 +2,11 @@ import express from "express";
 
 const app = express();
 
-app.listen(3000, () => console.log("server working on port 3000"))
+const port = 3000
+
+app.get('/homepage-get', (req, res) => res.send('Hello, world'))
+app.post('/homepage-post', function (req, res) {
+  res.send('POST request to the homepage')
+})
+
+app.listen(port, () => console.log(`Example app listening on port ${port}!`))
