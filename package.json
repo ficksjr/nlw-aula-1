@@ -1,0 +1,11 @@
+{
+  "name": "nlw-aula-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ficksjr/nlw-aula-1.git",
+  "author": "Paulo Renato <ficksjr@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.3.4"
+  }
+}
